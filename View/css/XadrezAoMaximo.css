@@ -1,0 +1,25 @@
+#tabuleiro {
+    border: 1px outset #000000;
+    margin: 0px auto;
+    padding: 10px;
+    background-color: #ff9966;
+}
+
+#tabuleiro .casa {
+    width: 12.5%;
+    float: left;
+}
+
+#tabuleiro .casasNegras {
+    background-color: #000000;
+}
+
+#tabuleiro .casasBrancas {
+    background-color: #ffffff;
+}
+
+#tabuleiro .peca {
+    position: absolute;
+    color: #00ff00;
+    font-weight: bold;
+}
